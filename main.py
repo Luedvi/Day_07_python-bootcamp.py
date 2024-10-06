@@ -146,7 +146,7 @@ while try_again:
                 display[index] = guess
                 if "_" not in display:  # can be a nested "if" or not, it doesn't affect the outcome
                     game_over = True
-                    print("Â¡Felicidades! adivinaste la palabra secreta")
+                    print("¡Felicidades! adivinaste la palabra secreta")
 
         print(" ".join(display))
 
